@@ -31,4 +31,4 @@ if create_newid then
     headers = {"X-Gyazo-Id"=>id}
 end
 
-cgi.out(headers){"http://gyazo.com/#{hash}.png"}
+cgi.out(headers){"http://gyazo.dyndns.info/data/#{hash}.png"}
